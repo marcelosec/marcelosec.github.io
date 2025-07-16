@@ -19,7 +19,7 @@ locale                   : "es-ES" # idioma
 title                    : "marcelosec"
 title_separator          : "-"
 name                     : "marcelosec"
-description              : "Posts acerca de Redes Informáticas y Ciberseguridad"
+description              : "Artículos acerca de Redes Informáticas y Ciberseguridad"
 url                      : # "https://snowscan.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "marcelosec/marcelosec.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Marcelo Tiburcio"
   avatar           : "/assets/images/fotoPerfil.png"
-  bio              : "Ingeniería Electrónica en la Universidad Nacional de Ingeniería (UNI)<br>- Redes Informáticas (CCNA)<br>- Practical Ethical Hacking<br>- Pentesting<br>- Capture the Flag (CTFs)<br>- Active Directory<br>- Escalada de privilegios en Windows y Linux<br>- Programación en Python, Java, Bash"
+  bio              : "Ingeniería Electrónica<br>Universidad Nacional de Ingeniería (UNI)<br>- Redes Informáticas (CCNA)<br>- Practical Ethical Hacking<br>- Pentesting<br>- Capture the Flag (CTFs)<br>- Active Directory<br>- Escalada de privilegios en Windows y Linux<br>- Bash, Python, Java"
   location         : "Lima, Perú"
   email            : "marcelo032803@gmail.com"
   uri              :

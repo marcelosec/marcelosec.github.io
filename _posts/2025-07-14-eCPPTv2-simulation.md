@@ -7,7 +7,7 @@ classes: wide
 header:
   teaser: /assets/images/2024-08-17-eCPPTv2-simulation/certificate-eCPPTv2.png
   teaser_home_page: true
-  icon: /assets/images/vulnhub-logo.png
+  icon: # /assets/images/vulnhub-logo.png
 categories:
   - vulnhub
   - Certification
@@ -58,7 +58,7 @@ Nagini
 
 Fawkes
 
-![](/assets/images/2024-08-17-eCPPTv2-simulation/fawkes-network.png.png)
+![](/assets/images/2024-08-17-eCPPTv2-simulation/fawkes-network.png)
 
 Matrix
 
@@ -2236,7 +2236,7 @@ Now we have to reload the web page we are going to fuzz while we have the burpsu
 
 We have now intercepted the traffic with Burpsuite:
 
-![](/assets/images/2024-08-17-eCPPTv2-simulation/trawfic-intercepted.png)
+![](/assets/images/2024-08-17-eCPPTv2-simulation/trafic-intercepted.png)
 
 Now we have to send it to intruder to prepare our payload, for this we have to do **Ctrl+I**:
 
@@ -2823,5 +2823,3 @@ root@brainpan:~#
 ```
 
 Finally we finished the laboratory practice, it is very similar to **eCPPTv2** and even more complicated than the exam. I want to apologize if in any part of the entire report it has not been possible to understand it well, in any case I provide my email **arc4.he@gmail.com** I will be aware of any possible questions.
-
-Arc4he.

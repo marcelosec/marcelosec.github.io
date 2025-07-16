@@ -1,15 +1,13 @@
 ---
 layout: single
 title: Infovore - VulnHub
-excerpt: "This is an easy to intermediate box that shows you how you can exploit innocent looking php functions and lazy sys admins.
-
-There are 4 flags in total to be found, and you will have to think outside the box and try alternative ways to achieve your goal of capturing all flags."
+excerpt: "This is an easy to intermediate box that shows you how you can exploit innocent looking php functions and lazy sys admins.There are 4 flags in total to be found, and you will have to think outside the box and try alternative ways to achieve your goal of capturing all flags."
 date: 2025-07-10
 classes: wide
 header:
   teaser: /assets/images/2024-08-15-vulnhub-infovore/web_interface.png
   teaser_home_page: true
-  icon: /assets/images/vulnhub-logo.png
+  icon: # /assets/images/vulnhub-logo.png
 categories:
   - vulnhub
   - web vulnerabilities
@@ -410,5 +408,3 @@ FLAG{And_now_You_are_done}
  
 bash-4.3# 
 ```
-
-Arc4he.

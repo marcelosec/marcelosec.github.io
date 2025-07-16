@@ -10,7 +10,7 @@ classes: wide
 header:
   teaser: /assets/images/2024-08-14-vulnhub-Presidential/web_interface.png
   teaser_home_page: true
-  icon: /assets/images/vulnhub-logo.png
+  icon: # /assets/images/vulnhub-logo.png
 categories:
   - vulnhub
   - infosec
@@ -57,7 +57,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 ## WebSite
 
-![](assets/images/2024-08-14-vulnhub-Presidential/web_interface.png)
+![](/assets/images/2024-08-14-vulnhub-Presidential/web_interface.png)
 
 At this point we start scanning the entire website extensively, applying fuzzing to find directories and subdomains.
 
@@ -360,5 +360,3 @@ Please visit my blog and provide feedback - I will be glad to hear from you.
 ```
 
 Finally we have finished compromising the machine.
-
-Arc4he

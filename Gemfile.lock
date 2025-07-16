@@ -267,6 +267,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     uri (0.13.0)
+    wdm (0.2.0)
     webrick (1.8.1)
 
 PLATFORMS
@@ -279,7 +280,8 @@ DEPENDENCIES
   jekyll-include-cache
   minima (~> 2.0)
   tzinfo-data
-  wdm (~> 0.1.1)
+  wdm (>= 0.1.0)
+  webrick
 
 BUNDLED WITH
    2.3.15

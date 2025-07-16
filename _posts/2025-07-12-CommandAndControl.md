@@ -7,7 +7,7 @@ classes: wide
 header:
   teaser: /assets/images/Command-And-Control/cAndc.jpg
   teaser_home_page: true
-  icon: /assets/images/Command-And-Control/ciberAttack.jpg
+  icon: # /assets/images/Command-And-Control/ciberAttack.jpg
 categories:
   - programming
 tags:  
