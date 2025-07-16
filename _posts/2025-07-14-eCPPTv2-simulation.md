@@ -2822,4 +2822,4 @@ _|_|_|    _|          _|_|_|  _|  _|    _|  _|_|_|      _|_|_|  _|    _|
 root@brainpan:~# 
 ```
 
-Finally we finished the laboratory practice, it is very similar to **eCPPTv2** and even more complicated than the exam. I want to apologize if in any part of the entire report it has not been possible to understand it well, in any case I provide my email **arc4.he@gmail.com** I will be aware of any possible questions.
+Finally we finished the laboratory practice, it is very similar to **eCPPTv2** and even more complicated than the exam.
