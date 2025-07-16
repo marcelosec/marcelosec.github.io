@@ -2,7 +2,7 @@
 layout: single
 title: Command And Control
 excerpt: "A Command and Control is a software to control a client from the server. Is a software to control a client from the server. The command and control server can be controlled by any operator to execute malware for example."
-date: 2024-08-12
+date: 2025-07-12
 classes: wide
 header:
   teaser: /assets/images/Command-And-Control/cAndc.jpg

@@ -2,7 +2,7 @@
 layout: single
 title:  eCPPTv2 Simulation
 excerpt: "This time we will perform a simulation of the eCPPTv2 exam, in which we will have to compromise an entire network of computers using **Pivoting**, all in a local environment using VMware. "
-date: 2024-08-17
+date: 2025-07-14
 classes: wide
 header:
   teaser: /assets/images/2024-08-17-eCPPTv2-simulation/certificate-eCPPTv2.png

@@ -5,7 +5,7 @@ excerpt: "The Presidential Elections within the USA are just around the corner (
 
 The state of Ontario has therefore asked you (an independent penetration tester) to test the security of their server in order to alleviate any electoral fraud concerns. Your goal is to see if you can gain root access to the server – the state is still developing their registration website but has asked you to test their server security before the website and registration system are launched."
 
-date: 2024-08-14
+date: 2025-07-8
 classes: wide
 header:
   teaser: /assets/images/2024-08-14-vulnhub-Presidential/web_interface.png
