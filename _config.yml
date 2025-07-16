@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Marcelo Tiburcio"
   avatar           : "/assets/images/fotoPerfil.png"
-  bio              : "- Ingeniería Electrónica en la Universidad Nacional de Ingeniería (UNI)<br>- Experiencia laboral como Asistente Administrativo de TI y Soporte Técnico<br>Conocimientos en:<br>- Redes Informáticas (CCNA)<br>- Ethical Hacking<br>- Active Directory<br>- Escalada de privilegios en Windows y Linux<br>- Programación en Python, Java, Bash"
+  bio              : "Ingeniería Electrónica en la Universidad Nacional de Ingeniería (UNI)<br>- Redes Informáticas (CCNA)<br>- Practical Ethical Hacking<br>- Pentesting<br>- Capture the Flag (CTFs)<br>- Active Directory<br>- Escalada de privilegios en Windows y Linux<br>- Programación en Python, Java, Bash"
   location         : "Lima, Perú"
   email            : "marcelo032803@gmail.com"
   uri              :
