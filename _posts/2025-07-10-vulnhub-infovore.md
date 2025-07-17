@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Infovore - VulnHub
-excerpt: "This is an easy to intermediate box that shows you how you can exploit innocent looking php functions and lazy sys admins.There are 4 flags in total to be found, and you will have to think outside the box and try alternative ways to achieve your goal of capturing all flags."
+title: Informático - VulnHub
+excerpt: "Este es un cuadro de fácil acceso que te muestra cómo explotar funciones PHP aparentemente inocentes y administradores de sistemas perezosos. Hay 4 indicadores en total, y tendrás que pensar de forma innovadora y probar alternativas para lograr tu objetivo de capturar todos los indicadores."
 date: 2025-07-10
 classes: wide
 header:

@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  eCPPTv2 Simulation
-excerpt: "This time we will perform a simulation of the eCPPTv2 exam, in which we will have to compromise an entire network of computers using **Pivoting**, all in a local environment using VMware. "
+title:  Simulación eCPPTv2
+excerpt: "En esta ocasión realizaremos una simulación del examen eCPPTv2, en la cual tendremos que comprometer toda una red de ordenadores utilizando Pivoting, todo en un entorno local utilizando VMware."
 date: 2025-07-14
 classes: wide
 header:
