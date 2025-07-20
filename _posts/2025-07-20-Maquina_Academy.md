@@ -27,6 +27,9 @@ tags:
 
 # IP Academy
 
+- login: root
+- password: tcm
+
 ```
 ip a
 ```
