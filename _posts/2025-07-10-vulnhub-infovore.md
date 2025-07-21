@@ -2,7 +2,7 @@
 layout: single
 title: Informático - VulnHub
 excerpt: "Este es un cuadro de fácil acceso que te muestra cómo explotar funciones PHP aparentemente inocentes y administradores de sistemas perezosos. Hay 4 indicadores en total, y tendrás que pensar de forma innovadora y probar alternativas para lograr tu objetivo de capturar todos los indicadores."
-date: 2025-07-10
+date: 2025-06-10
 classes: wide
 header:
   teaser: /assets/images/2024-08-15-vulnhub-infovore/web_interface.png

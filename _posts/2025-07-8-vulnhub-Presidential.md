@@ -2,7 +2,7 @@
 layout: single
 title: Presidencial - VulnHub
 excerpt: "Las elecciones presidenciales en EE. UU. están a la vuelta de la esquina (noviembre de 2020). Un partido político teme que el otro cometa fraude electoral pirateando el sistema de registro y falsificando los votos. Por lo tanto, el estado de Ontario le ha pedido a usted (un experto en pruebas de penetración independiente) que pruebe la seguridad de su servidor para disipar cualquier sospecha de fraude electoral. Su objetivo es comprobar si puede obtener acceso root al servidor. El estado aún está desarrollando su sitio web de registro, pero le ha pedido que pruebe la seguridad de su servidor antes del lanzamiento del sitio web y el sistema de registro."
-date: 2025-07-8
+date: 2025-06-8
 classes: wide
 header:
   teaser: /assets/images/2024-08-14-vulnhub-Presidential/web_interface.png

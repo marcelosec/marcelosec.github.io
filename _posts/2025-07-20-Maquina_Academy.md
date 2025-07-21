@@ -1,8 +1,8 @@
 ---
 layout: single
 title: Máquina Academy
-excerpt: "La máquina Academy es un reto de nivel medio que combina reconocimiento con NMAP y FTP anónimo para extraer información, descubrimiento de rutas ocultas con FFUF, cruce de credenciales MD5 descifradas con Hashcat, subida de un web‑shell para obtener una Reverse Shell y, finalmente, escalada de privilegios local mediante LinPEAS y PSPY para alcanzar root."
-date: 2025-07-20
+excerpt: "Academy es una máquina CTF de dificultad media que arranca con un escaneo de puertos y FTP anónimo para extraer y descifrar un hash MD5, sigue con enumeración web (dirb/ffuf) y un shell inverso PHP para obtener acceso, y culmina descargando linPEAS para identificar un cron que ejecuta /home/grimmie/backup.sh cada minuto, inyectar en él un reverse‑shell bash y, cuando se reprograme, conseguir privilegios root."
+date: 2025-06-20
 classes: wide
 header:
   teaser: /assets/images/2025-07-20-Maquina_Academy/academy_portada.png
@@ -38,7 +38,7 @@ ip a
 
 ![](/assets/images/2025-07-20-Maquina_Academy/academy_ip.png)
 
-# NMAP
+# nmap
 ```
 nmap -p- -A -T4 192.168.116.132
 ```
@@ -59,7 +59,7 @@ nmap -p- -A -T4 192.168.116.132
 
 ![](/assets/images/2025-07-20-Maquina_Academy/academy_apache.png)
 
-# FTP
+# ftp
 ```
 ftp 192.168.116.132
 anonymous    # de nmap FTP login
@@ -100,7 +100,7 @@ hash-identifier
 
 ![](/assets/images/2025-07-20-Maquina_Academy/academy_hashid.png)
 
-# HASHCAT
+# hashcat
 
 - https://www.4armed.com/blog/hashcat-crack-md5-hashes/
 
@@ -158,7 +158,7 @@ hashcat -m 0 hashes.txt /usr/share/wordlists/rockyou.txt
 - Se mostrará 2 herramientas que se podrían usar DIRB Y FFUF
 
 # Busqueda directorios
-## DIRB
+## dirb
 
 - Para la enumeración de contenido web. Permitirá explorar los directorios y archivos disponibles en el servidor web ubicado en esa dirección IP.
 - Es una opción de herramienta, pero FFUF lo hace mejor.
@@ -169,7 +169,7 @@ dirb http://192.168.116.134
 
 ![](/assets/images/2025-07-20-Maquina_Academy/academy_dirb.png)
 
-## FFUF
+## ffuf
 
 - Se utiliza para la búsqueda de directorios y archivos ocultos en un servidor web, similar a lo que hace dirb.
 	
@@ -180,6 +180,7 @@ sudo apt install ffuf
 ![](/assets/images/2025-07-20-Maquina_Academy/academy_ffuf.png)
 
 ```
+ffuf -w <worldlist>:FUZZ -u <URL>/FUZZ
 ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u http://192.168.116.134/FUZZ
 ```
 
@@ -216,7 +217,7 @@ ffuf -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt:FUZZ -u htt
 - Lo que se puede hacer es intentar carga un Shell inverso y ver si se puede recuperar conexión.
 - Ahora se sabe que esto es Apache, así que se cargará a través de PHP.
 
-# PHP Reverse Shell
+# php Reverse Shell
 
 - https://github.com/pentestmonkey/php-reverse-shell/tree/master
 
@@ -368,7 +369,7 @@ cat /var/www/html/academy/admin/includes/config.php
 
 ![](/assets/images/2025-07-20-Maquina_Academy/academy_usergrimmie.png)
 
-### SSH
+### ssh
 
 ```
 ssh grimmie@192.168.116.132    # ip target
@@ -416,7 +417,7 @@ systemctl list-timers
 
 ![](/assets/images/2025-07-20-Maquina_Academy/academy_systemctl.png)
 
-## PSPY
+## pspy
 
 - https://github.com/DominicBreuker/pspy/tree/master
 
