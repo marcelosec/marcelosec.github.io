@@ -3,11 +3,11 @@ layout: single
 title: Máquina Dev
 excerpt: "Dev es una máquina CTF que arranca con un escaneo de puertos y un montaje NFS para extraer y descifrar un ZIP protegido con fcrackzip, usa la clave SSH obtenida para acceso inicial, explora la web con ffuf para encontrar y explotar una LFI en BoltWire, se autentica como jeanpaul con credenciales filtradas y, tras comprobar que puede ejecutar zip vía sudo sin contraseña, se abusa de sudo zip vía GTFOBins para escalar a root y capturar la flag."
 date: 2025-06-21
-classes: wide
+# classes: wide
 header:
   teaser: /assets/images/2025-07-21-Maquina_Dev/dev_portada.png
   teaser_home_page: true
-  icon: # /assets/images/Command-And-Control/ciberAttack.jpg
+#  icon: /assets/images/Command-And-Control/ciberAttack.jpg
 categories:
   - ctf
 tags:  
@@ -22,7 +22,7 @@ tags:
 
 ![](/assets/images/2025-07-21-Maquina_Dev/dev_portada.png)
 
-# IP Academy
+# ip Academy
 
 https://drive.google.com/drive/folders/1xJy4ozXaahXvjbgTeJVWyY-eUGIKgCj1
 
@@ -266,7 +266,7 @@ searchsploit boltwire
 
 ![](/assets/images/2025-07-21-Maquina_Dev/dev_jeanpaul.png)
 
-# ssh continuación
+# ssh 2
 
 ```
 ssh -i id_rsa jeanpaul@192.168.116.134
@@ -338,3 +338,4 @@ sudo zip $TF /etc/hosts -T -TT 'sh #'
 ![](/assets/images/2025-07-21-Maquina_Dev/dev_flag.png)
 
 - *Autor: marcelosec*
+

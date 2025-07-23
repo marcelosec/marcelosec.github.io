@@ -3,7 +3,7 @@ layout: single
 title:  Simulación eCPPTv2
 excerpt: "En esta ocasión realizaremos una simulación del examen eCPPTv2, en la cual tendremos que comprometer toda una red de ordenadores utilizando Pivoting, todo en un entorno local utilizando VMware."
 date: 2025-06-14
-classes: wide
+#classes: wide
 header:
   teaser: /assets/images/2024-08-17-eCPPTv2-simulation/certificate-eCPPTv2.png
   teaser_home_page: true

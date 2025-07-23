@@ -3,7 +3,7 @@ layout: single
 title: Comando y control
 excerpt: "Un sistema de comando y control es un software que controla un cliente desde el servidor. El servidor de comando y control puede ser controlado por cualquier operador para, por ejemplo, ejecutar malware."
 date: 2025-06-12
-classes: wide
+#classes: wide
 header:
   teaser: /assets/images/Command-And-Control/cAndc.jpg
   teaser_home_page: true

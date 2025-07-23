@@ -1,8 +1,39 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* -- Escala global de la página de inicio -- */
+.layout--home {
+  font-size: 0.84rem;   
+}
+
+/* — Escala global de todo el contenido del post — */
+.layout--single {
+  font-size: 0.84rem;
+}
+
+/* — Escala global de la página /posts/ — */
+.layout--posts {
+  font-size: 0.84rem;              
+}
+
+/* ─ Escala global de la página /categories/ ─*/
+.layout--categories {
+  font-size: 0.84rem;       
+}
+
+/* ─ Escala global de la página /tags/ ─ */
+.layout--tags {
+  font-size: 0.84rem;      
+}
+
+/* — Escala global de la página /about/ — */
+.page--about {
+  font-size: 0.84rem;     
+}

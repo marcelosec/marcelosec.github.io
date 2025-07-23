@@ -3,7 +3,7 @@ layout: single
 title: Máquina Academy
 excerpt: "Academy es una máquina CTF de dificultad media que arranca con un escaneo de puertos y FTP anónimo para extraer y descifrar un hash MD5, sigue con enumeración web (dirb/ffuf) y un shell inverso PHP para obtener acceso, y culmina descargando linPEAS para identificar un cron que ejecuta /home/grimmie/backup.sh cada minuto, inyectar en él un reverse‑shell bash y, cuando se reprograme, conseguir privilegios root."
 date: 2025-06-20
-classes: wide
+#classes: wide
 header:
   teaser: /assets/images/2025-07-20-Maquina_Academy/academy_portada.png
   teaser_home_page: true
@@ -25,7 +25,7 @@ tags:
 
 ![](/assets/images/2025-07-20-Maquina_Academy/academy_portada.png)
 
-# IP Academy
+# ip Academy
 
 - login: root
 - password: tcm
