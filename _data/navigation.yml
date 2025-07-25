@@ -7,7 +7,7 @@ main:
     url: /categories/
   - title: "Etiquetas"
     url: /tags/
-  - title: "Acerca de mí"
+  - title: "Sobre mí"
     url: /about/
 
 

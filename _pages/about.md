@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Acerca de mí"
+title: "Sobre mí"
 permalink: /about/
 ## date: 2025-07-15
 ---
